@@ -1,0 +1,21 @@
+{
+    "name": "krecu/symfony-micro",
+    "license": "MIT",
+    "type": "project",
+    "description": "Symfony3.0 Micro kernel",
+    "autoload": {
+        "psr-4": {
+            "AppBundle\\": "src/AppBundle/"
+        }
+    },
+    "require": {
+        "symfony/symfony": "3.0.*",
+        "sensio/framework-extra-bundle": "^3.0.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.5"
+    },
+    "config": {
+        "bin-dir": "bin"
+    }
+}
